@@ -100,11 +100,12 @@ namespace T6Entrega
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(551, 56);
+            this.label3.Location = new System.Drawing.Point(545, 52);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(49, 13);
+            this.label3.Size = new System.Drawing.Size(32, 13);
             this.label3.TabIndex = 7;
-            this.label3.Text = "Telefono";
+            this.label3.Text = "Movil";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // Form1
             // 
